@@ -1,0 +1,33 @@
+label{
+    font-size: 14px;
+    color: #303030 ;
+}
+.btn{
+    background-color: #78A206 ;
+    color: white;
+
+}
+
+.btn:hover, .btn:focus,.btn:active{
+    background-color:#90c209 ;
+    transition: background-color .5s;
+    color: #fff ;
+}
+
+.inline{
+    font-size: 20px;
+}
+
+.form{
+    width:500px
+}
+
+@media screen and (max-width: 576px) {
+    .form{
+        width: 100%;
+    }
+    .label{
+        font-size: 14px;
+        color: #303030;
+}
+}

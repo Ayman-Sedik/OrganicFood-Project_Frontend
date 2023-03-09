@@ -1,0 +1,56 @@
+
+.secBg{
+    height: 55vh;
+}
+.cover{
+    height: 300px;
+    background: url(../../../public/images/products/coverAll.jpg) no-repeat ;
+    background-position: center center ;
+    background-size:cover ;
+}
+
+.caption{
+    top: 100%;
+    left:50%;
+    width: 50%;
+    transform: translate(-50% ,-50% );
+    background-color: #90c209;
+    color: #fff;
+    text-align: center;
+}
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.planet{
+    color: #78A206;
+}
+
+.header{
+    color: #84b306;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+      .cover{
+        height: 300px;
+        background: url(../../../public/images/products/coverAll.jpg) no-repeat ;
+        background-position: center center ;
+        background-size: 182% 100%;
+    }
+.fluid{
+ width: 100%;
+}
+      .caption{
+       width: 75%;
+    }
+    
+    .caption h1{
+        font-size: 24px;
+    }
+    .caption p{
+        font-size:10px;
+
+}
+}

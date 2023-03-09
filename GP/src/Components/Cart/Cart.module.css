@@ -1,0 +1,98 @@
+.iconBasket{
+    color: #78A206;
+    font-size: 45px;
+}
+
+.img {
+	width: 120px;
+	height: 120px;
+}
+
+.tableContainer {
+	overflow-x: auto;
+}
+
+table {
+	border-collapse: collapse;
+    background-color: #f4fbfc;
+}
+.tableHead {
+    border-radius: 10%;
+	background-color: #c6d1d1;
+}
+table td,
+table th {
+	vertical-align: middle;
+	text-align: center;
+    
+}
+table thead th {
+}
+
+.wrapper {
+    height: 56px;
+    width: 75px;
+    
+    background: #fff;
+}
+.counterNum{
+    width: 60%;
+    height: 100%;
+
+}
+.counter{
+    height: 100%;
+    width: 40%;
+}
+
+.counter .plus{
+    height: 50%;
+    width: 100%;
+    color:green;
+    cursor: pointer;
+    user-select: none;
+}
+.counter .plus:active{
+    background-color: #eee;
+    
+}
+
+.counter .minus{
+    user-select: none;
+    cursor: pointer;
+    height: 50%;
+    width: 100%;  
+    color: red;  
+}
+
+
+    .counter .minus:active{
+        background-color: #eee;
+        
+    }
+
+    .curserPointer{
+        cursor: pointer;
+    }
+
+
+    .checkoutList{
+        background-color: #78b144;
+    }
+    .btnCheckout{
+        background-color: #DF2E38;
+    }
+    .btnCheckout:hover{
+        background-color: #161817;
+    }
+    .btnCheckout:active{
+        /* background-color: #3ba66b; */
+    }
+    .btnCheckout:active{
+        background-color: #003e70;
+    }
+
+
+    .infoCart{
+        color:#717e95;
+    }

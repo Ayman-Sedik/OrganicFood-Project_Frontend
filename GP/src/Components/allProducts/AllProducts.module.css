@@ -1,0 +1,226 @@
+/* 
+.secBg{
+    height: 300px;  
+}
+.cover{
+    height: 300px;
+    background: url(../../../public/images/products/coverAll.jpg) no-repeat ;
+    background-position: center center ;
+    background-size:cover ;
+}
+
+.caption{
+    top: 100%;
+    left:50%;
+    width: 50%;
+    transform: translate(-50% ,-50% );
+    background-color: #a3a0a0;
+}
+
+.caption h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.caption p{
+    color:#eeebeb;
+}
+
+.brdr{
+    margin: 5px 0;
+    height: 3px;
+    background-color: #a8a8a83d;
+  }
+  .h2{
+    color:#F16767;
+    color:#F2921D;
+    color:#FC7300;
+  }
+
+.h5{
+  color: #949cb0;
+}
+.item{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.butn{
+    color: #fff;
+    background-image: linear-gradient(to right, #ffa270 , #ff6460);
+    
+    
+}
+.butn:hover{
+    color: #fff;
+    background-image: linear-gradient(to right,#ff6460 ,#ffa270  );
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .h2{
+  
+    }
+
+
+      .cover{
+        height: 300px;
+        background: url(../../../public/images/products/coverAll.jpg) no-repeat ;
+        background-position: center center ;
+        background-size: 182% 100%;
+    }
+
+      .caption{
+       width: 75%;
+    }
+    
+    .caption h1{
+        font-size: 24px;
+    }
+    .caption p{
+        font-size: 10px;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .h2{
+  
+    }
+    .h5{
+      
+      }
+} */
+
+.secBg{
+    /* max-height: ; */
+    height: 300px;  
+}
+.cover{
+    height: 300px;
+    background: url(../../../public/images/products/coverAll.jpg) no-repeat ;
+    background-position: center center ;
+    background-size:cover ;
+}
+
+.caption{
+    top: 100%;
+    left:50%;
+    width: 50%;
+    transform: translate(-50% ,-50% );
+    background-color: #90c209;
+    /* border-radius: 20px; */
+}
+
+.caption h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.caption p{
+    color:#eeebeb;
+}
+
+.brdr{
+    margin: 5px 0;
+    height: 3px;
+    background-color: #90c209;
+  }
+  .h2{
+    color:#78A206;
+    color:#90c209;
+    color:#78A206;
+  }
+
+.h5{
+  color: #949cb0;
+}
+.fruits{
+    color: #78A206;
+}
+.item{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.butn{
+    color: #fff;
+    background-image: linear-gradient(to right, #90c209 , #78A206);
+    /* font-size: 12px; */
+    
+    
+}
+.butn:hover{
+    color: #fff;
+    background-image: linear-gradient(to right,#78A206 ,#90c209  );
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .h2{
+  
+    }
+  .item  .h5{
+       /* font-size: 5px;
+       color: red; */
+
+      }
+
+      .cover{
+        height: 300px;
+        background: url(../../../public/images/products/coverAll.jpg) no-repeat ;
+        background-position: center center ;
+        background-size: 182% 100%;
+    }
+
+      .caption{
+       width: 75%;
+    }
+    
+    .caption h1{
+        font-size: 24px;
+    }
+    .caption p{
+        font-size: 10px;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .h2{
+  
+    }
+    .h5{
+       /* font-size: 5px;
+       color: red; */
+      }
+}
+
+.paginationBttns{
+    width:80%;
+    height: 40px;
+    list-style:none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.paginationBttns a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid  #78A206;
+    color: #78A206 !important;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover{
+    color: #fff !important;
+    background-color: #90c209;
+}
+
+.paginationActive a {
+    color: #fff !important;
+    background-color: #90c209;
+}

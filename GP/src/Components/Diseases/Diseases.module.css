@@ -1,0 +1,48 @@
+.botton {
+   
+    background-color: #78A206;
+    color: white;
+    border: 1px;
+    border-radius: 6px;
+    font-weight: 500;
+
+
+}
+
+.botton:hover {
+    background-color: #90c209;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color .5s;
+    color: #fff;
+}
+
+  .content {
+      font-size: 26px;
+  }
+
+ 
+
+  .quete{
+    color: #78A206;
+  }
+
+ 
+  @media screen and (max-width: 768px) {
+    .content {
+     margin-top: 16px;
+        font-size: 20px;
+    }
+    .botton{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+.content {
+        margin-top: 7px;
+            font-size: 16px;
+    }
+         .botton {
+             font-size: 13px;
+}
+}

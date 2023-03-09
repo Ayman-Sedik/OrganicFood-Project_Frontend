@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); 
+.bgSlider{
+    background-image: url('../../../public/images/bgSlider.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.layer{
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+.layer p {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    background-image: url('../../../public/images/bgWords.png');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+.layer .btnShop {
+    top: 80%;
+    left: 50%;
+    background-color: #78A206 ;
+    color: white;
+    border: 1px;
+    border-radius: 6px;
+    /* height: 45px; */
+    /* width: 150px; */
+    /* cursor: pointer; */
+    /* font-size: 18px; */
+    font-weight: 500;
+
+}
+.layer .btnShop:hover{
+    background-color:#90c209 ;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
+    transition: background-color .5s;
+}
+.contentSlider span{
+    
+}
+
+@media screen and (max-width: 768px) {
+
+	.layer p {
+        font-size: 24px;
+	}
+
+
+}

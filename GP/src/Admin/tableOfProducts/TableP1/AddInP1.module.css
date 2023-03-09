@@ -1,0 +1,31 @@
+.btn {
+    background-color: #78A206;
+    color: white;
+    border: 1px;
+    border-radius: 6px;
+    height: 45px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover
+{
+    background-color:#90c209 ;
+    transition: background-color .5s;
+    color: #fff;
+}
+
+.textInput:focus{
+    outline: hidden;
+}
+
+
+.form{
+    width: 500px;
+}
+@media screen and (max-width: 576px) {
+    .form{
+        width:80%;
+}
+}

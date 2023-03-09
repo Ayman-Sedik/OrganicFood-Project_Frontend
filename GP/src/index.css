@@ -1,0 +1,84 @@
+/* font-family: 'Kaushan Script', cursive; */
+/* color: #686868; */
+/* #78A206 */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+
+
+
+body{
+  margin-top: 80px;
+  font-family: 'Cabin', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    margin-top: 141px;
+    
+  }
+  
+}
+
+@media screen and (max-width: 576px) {
+  
+  body{
+    margin-top: 141px;
+    
+  }
+  }
+
+
+
+
+
+
+/* .butn {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    color: #fff;
+    box-shadow: 4px 5px 27px 4px rgba(220, 120, 184, 0.85);
+    font-size: 21px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 12px 21px;
+    font-family: Montserrat;
+    transition: box-shadow.3s ease-in-out;
+    text-decoration: none;
+  }
+ 
+  .butn::before,
+  .butn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #2ab3ff, #ff2d00);
+    border-radius: 30px;
+    z-index: -1;
+  }
+  
+  .butn::after {
+    opacity: 0;
+    background-image: linear-gradient(to right,#FF2A67,#FF5D3A);
+    transition: opacity.3s ease-in-out;
+  }
+  
+  .butn:hover {
+    box-shadow: 4px 5px 27px 4px rgba(255,45,45,0.85);
+  }
+  .butn:hover::after {
+    opacity: 1;
+  } */
+
+
+
+
+  

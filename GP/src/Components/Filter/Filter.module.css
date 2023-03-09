@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); 
+.filter img {
+    width: 100% ;
+    height: 35vh;
+}
+.filterSection{
+    font-size: 24px;
+    /* color: #686868; */
+}
+.iconInfo img{
+    width: 40px;
+    height: 47px;
+}
+/* 
+.title{
+    cursor: pointer;
+} */
+.caption{
+    width: 80%;
+    background-color: #78A206;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    /* font-size: 24px; */
+    color: #fff;
+    transition: top .3s;
+}
+
+.caption:hover{
+    top: 98%;
+}
+.headline{
+    font-size: 15px;
+}
+
+.brdr{
+    border-right: 1px solid #686868;
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .filter img {
+        width: 100% ;
+        height: 30vh;
+    }
+    .iconItem{
+        padding:10px 0 ;
+        font-size: 14px;
+    }
+    .brdr{
+        border-right: none;
+        
+    }
+}
+@media screen and (max-width: 576px) {
+
+    .filter img {
+        width: 80% ;
+        height: 40vh;
+    }
+
+    .caption{
+        width: 65%;
+       
+    }
+    .iconItem{
+        padding:10px 0 ;
+        font-size: 12px;
+        
+    }
+    .brdr{
+        border-right: none;
+        
+    }
+}
+.curserPointer{
+    cursor: pointer;
+}

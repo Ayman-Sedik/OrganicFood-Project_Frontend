@@ -1,0 +1,46 @@
+
+.title{
+    font-size: 24px;
+    /* font-family: 'Kaushan Script', cursive; */
+    /* color: #686868; */
+}
+.brdr{
+    border-right: 1px solid rgb(180, 176, 176);
+}
+
+.button{
+    background-color: #78A206;
+    color: #fff;
+}
+
+.button:hover{
+        background-color: #90c209;
+            color: #fff;
+}
+@media screen and (max-width: 768px) {
+.brdr {
+        border: none;
+    }
+
+    .outBrdr {
+    border-bottom: 1px solid rgb(180, 176, 176);  
+ }
+ .button{
+            font-size: 18px;
+ }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .brdr {
+     border: none;
+    }
+
+ .outBrdr {
+     border-bottom: 1px solid rgb(180, 176, 176);
+     
+ }
+  .button {
+      font-size: 13px;
+  }
+}

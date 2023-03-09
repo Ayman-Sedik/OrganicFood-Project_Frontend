@@ -1,0 +1,76 @@
+.title{
+    font-size: 24px;
+    /* font-family: 'Kaushan Script', cursive; */
+    /* color: #686868; */
+}
+.boxSmall{
+    width: 100%;
+    border-radius: 10px;
+
+    height:63vh;
+    /* background-color: red; */
+}
+.layer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* width: 100%;
+    height: 40vh; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   border-radius: 20px;
+
+}
+.imgBox ,.imgBox2,.imgBox3{
+    background-image: url(../../../public/images/Boxes/bgBox.jpg);
+    background-size: 100% 100%;
+    /* background-color: blue; */
+    width: 100%;
+   height:40vh;
+   padding: 10px;
+   border-radius: 20px;
+
+}
+.imgBox img ,.imgBox2 img , .imgBox3 img{
+   width: 100%;
+   height:30vh;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+.imgBox img {
+   width: 90%;
+   height:30vh;
+    position: absolute;
+    top: 61%;
+    left: 45%;
+}
+.imgBox3 img {
+   width: 90%;
+   height:35vh;
+    position: absolute;
+    top: 52%;
+    left: 48%;
+}
+
+.price{
+    color: #78A206;
+    
+}
+
+.button{
+    color: #78A206;
+    border-color: #78A206;
+}
+.button:hover{
+    color: #fff;
+    background-color: #78A206;
+    border-color: #78A206;
+}
+
+@media screen and (max-width: 576px) {
+    .boxSmall{
+      margin-bottom: 20px ;
+}
+}

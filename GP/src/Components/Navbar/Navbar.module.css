@@ -1,0 +1,84 @@
+.containerWidth{
+    width: 98% ;
+    margin: auto ;
+    /* text-align: center; */
+    /* display: flex; */
+}
+
+.dropSetting{
+    /* left:12px */
+ }
+ 
+ .cart {
+     font-size: 27px;
+ }
+ 
+ .setting,.cart{
+     color: #686868;
+ }
+ 
+ 
+ .counter {
+    background-color: #78A206;
+    color: #ffffff;
+    font-weight: 600;
+    width: 23px;
+    height: 23px;
+    font-size: 12   px;
+    border-radius: 50%;
+    top: -3px;
+    left: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+ 
+ }
+ .counterNumber{
+     width: 16px;
+     height: 16px;
+     margin-bottom: 0;
+     font-size: 12px;
+     padding: 3px 5px;
+   
+ 
+ }
+ 
+ .price{
+     font-size: 19px;
+     font-weight: 500;
+     color: #78A206;
+ }
+ 
+ 
+ 
+ .btnSearch{
+     background-color: #78A206;
+ 
+     border-color: #78A206;
+ }
+ 
+ 
+ .btnSearch:hover{
+     background-color: #89b907;
+     border-color: #89b907;
+ }
+
+ .cartIcon{
+    cursor: pointer;
+ }
+
+ul li {
+    text-align: center;
+    padding: 10px 0;
+   
+    
+}
+.defaultColor{
+    background-color: #78A206;
+}
+
+.logout{
+    cursor: pointer;
+}
